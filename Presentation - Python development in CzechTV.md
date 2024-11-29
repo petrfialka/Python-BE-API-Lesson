@@ -116,12 +116,6 @@ Thank you.
 	- Borrow management
 		- Is book available?
 		- Who has it?
-- Test it
-	- Functional
-		- Unit test
-		- Integration test
-	- Non-functional
-		- Performance test
 ---
 ## Microservices
 Clever way to scale your application.
@@ -188,6 +182,17 @@ Clever way to scale you application together with your problems and also introdu
 - Raw GQL expirience
 - Support for GQL Federation
 ---
-
 ## Microservices Revisited with GraphQL
 ### Federated GraphQL
+Code time!
+---
+## Necessary evil in development
+- Security
+- Documentation
+- Code Quality
+- Testing
+	- Function
+		- Unit Testing
+		- Integration Testing
+	- Non-function
+		- Performance
