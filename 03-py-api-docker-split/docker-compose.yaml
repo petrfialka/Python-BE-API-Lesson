@@ -1,0 +1,13 @@
+services:
+  book:
+    build:
+      context: ./Book
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+  borrow:
+    build:
+      context: ./Borrow
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"

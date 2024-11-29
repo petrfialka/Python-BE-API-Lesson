@@ -1,0 +1,16 @@
+version: '3'
+tasks:
+  freeze:
+    cmds:
+      - pip freeze > requirements.txt
+  install:
+    cmds:
+      - python3 -m venv venv
+      - venv/bin/pip install -r requirements.txt
+
+  migrate:
+    - venv/bin/python manage.py makemigrations
+    - venv/bin/python manage.py migrate
+
+  start:
+    - venv/bin/python manage.py runserver
