@@ -6,6 +6,15 @@ margin: "0.2"
 # at
 # CzechTV
 ---
+## Lesson overview
+https://github.com/petrfialka/Python-BE-API-Lesson
+- Introduction
+- What is REST API
+- REST APIs done in Python
+- Microservices
+- GraphQL
+- Microservices with GraphQL
+---
 ## Introduction
 ### Who am I?
 ---
@@ -63,6 +72,11 @@ You want full lesson in one go.
 
 Thank you.
 
+---
+## REST API
+- REST = representational state transfer
+- API = application programming interface
+- REST API = interface you use to manage state
 ---
 ## Python REST API frameworks (open-source)
 - [FastAPI](https://fastapi.tiangolo.com/) - [GitHub](https://github.com/fastapi/fastapi)
