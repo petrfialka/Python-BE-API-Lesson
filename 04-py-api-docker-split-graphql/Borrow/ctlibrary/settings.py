@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "library",
     "drf_spectacular",
+    "graphene_django",
 ]
 
 MIDDLEWARE = [
@@ -137,3 +138,5 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }
+
+GRAPHENE = {"SCHEMA": "library.schema.schema"}

@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from graphene_django import DjangoObjectType
 from .models import Book
 
 
